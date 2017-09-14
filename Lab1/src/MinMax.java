@@ -29,8 +29,8 @@ public class Teste
 			i++;
 		}
 				
-		System.out.println("Mínimo = " + min);
-		System.out.println("Máximo = " + max);
+		System.out.println("MÃ­nimo = " + min);
+		System.out.println("MÃ¡ximo = " + max);
 		
 	}
 
