@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MinMax
+public class Teste
 {
 
 	public static void main(String[] args) 
