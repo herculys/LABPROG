@@ -16,6 +16,7 @@ public class Teste {
 		System.out.println("Informe o terceiro numero:");
 		n3 = sc.nextInt();
 		
+		System.out.println("n1 = " + n1  + "\n" + "n2 = " + n2 + "\n" + "n3 = " + n3);
 		
 	}
 
