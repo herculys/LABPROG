@@ -1,22 +1,36 @@
 import java.util.Scanner;
 
-public class Teste {
+public class Teste 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		Scanner sc = new Scanner(System.in);
-		int n1, n2, n3;
+		int n = 0, i = 0;
 		
-		System.out.println("Informe o primeiro numero:");
-		n1 = sc.nextInt();
-		
-		System.out.println("Informe o segundo numero:");
-		n2 = sc.nextInt();
-		
-		System.out.println("Informe o terceiro numero:");
-		n3 = sc.nextInt();
-		
-		System.out.println("n1 = " + n1  + "\n" + "n2 = " + n2 + "\n" + "n3 = " + n3);
+		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
+		while (i<4)
+		{
+			System.out.print("Informe um numero: ");
+			n = sc.nextInt();
+			
+			if (n<min)
+			{
+				min = n;
+			}
+			
+			if (n>max)
+			{
+				max = n;
+			}
+			
+			i++;
+		}
+				
+		System.out.println("Mínimo = " + min);
+		System.out.println("Máximo = " + max);
 		
 	}
 
