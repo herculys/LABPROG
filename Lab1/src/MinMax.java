@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class Teste 
+public class MinMax 
 {
 
 	public static void main(String[] args) 
 	{
 		
 		Scanner sc = new Scanner(System.in);
-		int n = 0, i = 0;
+		int n = 0, i = 0, entrada = 3;
 		
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
-		while (i<4)
+		while (i<entrada)
 		{
 			System.out.print("Informe um numero: ");
 			n = sc.nextInt();
@@ -29,8 +29,8 @@ public class Teste
 			i++;
 		}
 				
-		System.out.println("Mínimo = " + min);
-		System.out.println("Máximo = " + max);
+		System.out.println("Minimo = " + min);
+		System.out.println("Maximo = " + max);
 		
 	}
 
