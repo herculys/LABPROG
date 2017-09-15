@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/*
+ * Aluno: Herculys
+ */
 public class MinMax 
 {
 
