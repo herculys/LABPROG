@@ -83,21 +83,18 @@ public class PedraPapelTesoura {
 
            if (hastrue1 == true && hastrue2 == true)
            {
-        	   
+               System.out.println(string1 + " - " + string2);   
                if (resultado > 0 && resultado <= (n/2))
                {
-            	   System.out.println(string1 + " - " + string2);
                    System.out.println("Jogador 1 Ganhou!\n");
                }
 
                if (resultado > (n/2))
                {
-            	   System.out.println(string1 + " - " + string2);
                    System.out.println("Jogador 2 Ganhou!\n");
                }
                if (resultado == 0)
                {
-            	   System.out.println(string1 + " - " + string2);
                    System.out.println("Empate!\n");
                }   
            }
