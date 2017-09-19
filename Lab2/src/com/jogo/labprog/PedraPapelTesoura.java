@@ -15,7 +15,7 @@ public class PedraPapelTesoura {
 	   while (rodando >=1)
 	   {
         			
-    	   int jogador1 = 1, jogador2 = 1, n = 3, resultado, i;
+    	   int jogador1 = 1, jogador2 = 1, n = 3, resultado;
     	   String string1 = null, string2 = null;
     	   boolean hastrue1, hastrue2;
            Scanner sc = new Scanner (System.in);
