@@ -46,18 +46,14 @@ public class PedraPapelTesoura {
                case -1:
             	   System.out.println("Programa encerrado!");
             	   hastrue1 = false;
+            	   rodando = 0;
             	   break;
                default:
-                   System.out.println("Informe uma opção valida");
+                   System.out.println("Informe uma opÃ§Ã£o valida");
                    hastrue1 = false;
                    break;
            }
-           
-           if (jogador1 == -1)
-           {
-        	   break;
-           }
-  
+            
            switch (jogador2)
            {
                case 1:
@@ -75,17 +71,12 @@ public class PedraPapelTesoura {
                case -1:
             	   System.out.println("Programa encerrado!");
             	   hastrue2 = false;
+            	   rodando = 0;
             	   break;
                default:
-                   System.out.println("Informe uma opção valida");
+                   System.out.println("Informe uma opÃ§Ã£o valida");
                    hastrue2 = false;
                    break;
-           }
-           
-           if (jogador2 == -1)
-            
-           {
-        	   break;
            }
            
            resultado = (n + jogador1 - jogador2)%n;
