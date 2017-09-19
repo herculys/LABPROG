@@ -1,1 +1,1 @@
-![N|Solid](http://www.uepb.edu.br/download/arquivos_para_download/marcas-uepbs/Marca-da-UEPB-Aplicacao-Colorida-em-PNG-4.png)
+![N|Solid](http://www.uepb.edu.br/wp-content/uploads/2016/03/logotopo.svg)
