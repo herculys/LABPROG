@@ -12,7 +12,7 @@ public class PedraPapelTesoura {
 	
 	   int rodando = 1;
 	   
-	   while (rodando >=1)
+	   while (rodando == 1)
 	   {
         			
     	   int jogador1 = 1, jogador2 = 1, n = 3, resultado;
@@ -88,12 +88,8 @@ public class PedraPapelTesoura {
         	   break;
            }
            
-           
            resultado = (n + jogador1 - jogador2)%n;
-          
-           //System.out.println("Resultado = ");
-           //System.out.println(resultado);
-           
+
            if (hastrue1 == true && hastrue2 == true)
            {
         	   
