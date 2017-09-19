@@ -14,30 +14,25 @@ public class PedraPapelTesoura {
 	   while (rodando >=1)
 	   {
         			
-    	   int jogador1, jogador2, n = 3, resultado;
+    	   int jogador1 = 1, jogador2 = 1, n = 3, resultado, i;
     	   String string1 = null, string2 = null;
            Scanner sc = new Scanner (System.in);
+
            System.out.println("Pedra (1), Papel (2), Tesoura (3), Encerrar programa (-1)?");
-          
            jogador1 = sc.nextInt();
-          
-          
+
            switch (jogador1)
            {
                case 1:
-                   //System.out.println("Jogador 1 = Pedra");
-                   string1 = "Pedra";
+                   string1 = "PEDRA";
                    break;
                case 2:
-                   //System.out.println("Jogador 1 = Papel");
-                   string1 = "Papel";
+                   string1 = "PAPEL";
                    break;
                case 3:
-                   //System.out.println("Jogador 1 = Tesoura");
-                   string1 = "Tesoura";
+                   string1 = "TESOURA";
                    break;
                case -1:
-            	   rodando = 0;
             	   System.out.println("Programa encerrado!");
             	   break;
                default:
@@ -45,53 +40,55 @@ public class PedraPapelTesoura {
                    break;
            }
            
+           if (jogador1 == -1)
+           {
+        	   break;
+           }
            System.out.println("\nPedra (1), Papel (2), Tesoura (3), Encerrar programa (-1)?");
            jogador2 = sc.nextInt();
           
            switch (jogador2)
            {
                case 1:
-                   //System.out.println("Jogador 2 = Pedra");
-                   string2 = "Pedra";
+                   string2 = "PEDRA";
                    break;
                case 2:
-                   //System.out.println("Jogador 2 = Papel");
-                   string2 = "Papel";
+                   string2 = "PAPEL";
                    break;
                case 3:
-                   //System.out.println("Jogador 2 = Tesoura");
-                   string2 = "Tesoura";
+                   string2 = "TESOURA";
                    break;
                case -1:
-            	   rodando = 0;
             	   System.out.println("Programa encerrado!");
             	   break;
                default:
                    System.out.println("Informe uma opção valida");
                    break;
            }
-          
+           if (jogador2 == -1)
+           {
+        	   break;
+           }
            resultado = (n + jogador1 - jogador2)%n;
           
            //System.out.println("Resultado = ");
            //System.out.println(resultado);
            
-           
            if (resultado > 0 && resultado <= (n/2))
            {
         	   System.out.println(string1 + " - " + string2);
-               System.out.println("Jogador 1 Venceu!\n\n");
+               System.out.println("Jogador 1 Venceu!\n");
            }
 
            if (resultado > (n/2))
            {
         	   System.out.println(string1 + " - " + string2);
-               System.out.println("Jogador 2 Venceu!\n\n");
+               System.out.println("Jogador 2 Venceu!\n");
            }
            if (resultado == 0)
            {
         	   System.out.println(string1 + " - " + string2);
-               System.out.println("Empate!\n\n");
+               System.out.println("Empate!\n");
            }
            
         	
