@@ -1,7 +1,7 @@
 package lab03;
 
 /*
- * Aluno: Herculys
+ *  Aluno: Herculys
  */
 
 import java.util.Scanner;
@@ -19,6 +19,7 @@ public class Metodos {
 	    for(i = 0; i < 3; i++)
 	        for(j = 0; j < 3; j++)
 	            tabuleiro[i][j] = ' ';
+	    jogada = 0;
 	}
 	
 	public void imprimiJogoDaVelha()
@@ -59,12 +60,7 @@ public class Metodos {
         }
 	}
 	
-	public void quemVenceu()
-	{
-		
-	}
-	
-	
+
 	public void iniciarOJogo()
 	{
 		esvaziaTabuleiro();
