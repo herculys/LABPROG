@@ -18,7 +18,7 @@ public class JogoDaVelhaModularizado {
 			playing = entrada.nextLine();
 			if (playing.equals("s"))
 			{
-				System.out.println("Você reiniciou o jogo");
+				System.out.println("Você reiniciou o jogo.");
 				methods.iniciarOJogo();	
 				
 			} else
