@@ -37,20 +37,20 @@ public class ExplorandoOMundoDasSeries {
 			escolha = sc.nextInt();
 			switch (escolha) {
 			case 1:
-				System.out.print("Informe o primeiro numero da progressão aritmética: ");
-				paNum1 = sc.nextInt();
-				System.out.print("informe o segundo numero da progressão aritmética: ");
-				paNum2 = sc.nextInt();
+				//System.out.print("Informe o primeiro numero da progressão aritmética: ");
+				//paNum1 = sc.nextInt();
+				//System.out.print("informe o segundo numero da progressão aritmética: ");
+				//paNum2 = sc.nextInt();
 				System.out.print("informe a quantidade de elementos: ");
 				qtElementos = sc.nextInt();
 				pa.criaPa(qtElementos);
 				
 				break;
 			case 2:
-				System.out.print("Informe n1: ");
-				fiNum1 = sc.nextInt();
-				System.out.print("informe n2: ");
-				fiNum2 = sc.nextInt();
+				//System.out.print("Informe n1: ");
+				//fiNum1 = sc.nextInt();
+				//System.out.print("informe n2: ");
+				//fiNum2 = sc.nextInt();
 				System.out.print("informe a quantidade de elementos: ");
 				qtElementos = sc.nextInt();
 				fi.fibonacci(fiNum1, fiNum2, qtElementos);
